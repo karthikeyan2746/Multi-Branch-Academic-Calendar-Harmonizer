@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased font-sans;
+  }
+  
+  .dark body {
+    @apply bg-gray-900 text-gray-100;
+  }
+  
+  * {
+    @apply border-gray-200;
+  }
+  
+  .dark * {
+    @apply border-gray-700;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl font-semibold transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-200 hover:bg-gray-300 text-gray-800 px-6 py-3 rounded-xl font-semibold transition-all duration-200;
+  }
+  
+  .dark .btn-secondary {
+    @apply bg-gray-700 hover:bg-gray-600 text-gray-200;
+  }
+  
+  .card {
+    @apply bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden;
+  }
+  
+  .dark .card {
+    @apply bg-gray-800 border-gray-700;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 bg-white;
+  }
+  
+  .dark .input-field {
+    @apply bg-gray-700 border-gray-600 text-gray-100;
+  }
+  
+  .sidebar-item {
+    @apply flex items-center space-x-3 px-4 py-3 rounded-xl transition-all duration-200;
+  }
+  
+  .sidebar-item-active {
+    @apply bg-blue-50 text-blue-700 border-r-4 border-blue-600 shadow-sm;
+  }
+  
+  .dark .sidebar-item-active {
+    @apply bg-blue-900 text-blue-300;
+  }
+  
+  .sidebar-item-inactive {
+    @apply text-gray-600 hover:bg-gray-50 hover:text-gray-900;
+  }
+  
+  .dark .sidebar-item-inactive {
+    @apply text-gray-300 hover:bg-gray-700 hover:text-gray-100;
+  }
+}
+
+/* FullCalendar Customization */
+.fc {
+  @apply font-sans;
+}
+
+.fc-toolbar {
+  @apply mb-6;
+}
+
+.fc-toolbar-title {
+  @apply text-2xl font-bold text-gray-900;
+}
+
+.fc-button {
+  @apply bg-white border border-gray-300 text-gray-700 hover:bg-gray-50 rounded-lg px-4 py-2 font-medium transition-colors;
+}
+
+.fc-button-primary {
+  @apply bg-blue-600 border-blue-600 text-white hover:bg-blue-700;
+}
+
+.fc-event {
+  @apply border-0 rounded-lg shadow-sm;
+}
+
+.fc-daygrid-event {
+  @apply px-2 py-1 text-sm font-medium;
+}

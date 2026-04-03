@@ -1,0 +1,405 @@
+<html>
+<head>
+<title>TestNG:  AllTests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>AllTests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>65/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Dec 26 12:18:54 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>3 seconds (3566 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t03_queryParamSimulation()'><b>t03_queryParamSimulation</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t68_roleBasedAccessConcept_reviewerNotAdmin()'><b>t68_roleBasedAccessConcept_reviewerNotAdmin</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t82_mergeEvents_noEventsFound()'><b>t82_mergeEvents_noEventsFound</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t43_mergeRecordHasSourceEventsConcept()'><b>t43_mergeRecordHasSourceEventsConcept</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t62_tokenValidation_success()'><b>t62_tokenValidation_success</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t32_eventMergeRecordPrePersistCreatedAt()'><b>t32_eventMergeRecordPrePersistCreatedAt</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t74_registerUser_defaultRoleReviewer()'><b>t74_registerUser_defaultRoleReviewer</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t11_registerUser_duplicateEmail()'><b>t11_registerUser_duplicateEmail</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t13_getUserById_notFound()'><b>t13_getUserById_notFound</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t06_pathPatternMatch()'><b>t06_pathPatternMatch</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t71_tokenIncludesUserIdClaim()'><b>t71_tokenIncludesUserIdClaim</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t31_academicEventPrePersistSubmittedAt()'><b>t31_academicEventPrePersistSubmittedAt</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t33_clashRecordPrePersistDefaults()'><b>t33_clashRecordPrePersistDefaults</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t05_loginRequestDtoMapping()'><b>t05_loginRequestDtoMapping</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t89_clashResolve_updatesResolvedFlag()'><b>t89_clashResolve_updatesResolvedFlag</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t14_createBranch_success()'><b>t14_createBranch_success</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t10_registerUser_success()'><b>t10_registerUser_success</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t73_passwordMinLengthValidation()'><b>t73_passwordMinLengthValidation</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t37_repositoryFindUserByEmail_optional()'><b>t37_repositoryFindUserByEmail_optional</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t80_getEventsByBranch_service()'><b>t80_getEventsByBranch_service</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t16_getAllBranches_empty()'><b>t16_getAllBranches_empty</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t60_generateJwtToken_containsSubject()'><b>t60_generateJwtToken_containsSubject</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t61_generateTokenForUser_containsClaims()'><b>t61_generateTokenForUser_containsClaims</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t54_branchAndCalendarIndirectRelationConcept()'><b>t54_branchAndCalendarIndirectRelationConcept</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t36_userAccountPrePersistDefaultsRole()'><b>t36_userAccountPrePersistDefaultsRole</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t15_updateBranchStatus_success()'><b>t15_updateBranchStatus_success</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t30_branchProfilePrePersistSetsDefaults()'><b>t30_branchProfilePrePersistSetsDefaults</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t19_createAcademicEvent_invalidDates()'><b>t19_createAcademicEvent_invalidDates</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t40_branchProfileUniquenessConcept()'><b>t40_branchProfileUniquenessConcept</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t64_customUserDetailsService_loadByEmail()'><b>t64_customUserDetailsService_loadByEmail</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t20_branchProfileServiceInjected()'><b>t20_branchProfileServiceInjected</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t88_getEventsByBranch_noEvents()'><b>t88_getEventsByBranch_noEvents</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t21_academicEventServiceInjected()'><b>t21_academicEventServiceInjected</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t70_tokenIncludesRoleClaim()'><b>t70_tokenIncludesRoleClaim</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t22_mergeServiceInjectedMultipleRepositories()'><b>t22_mergeServiceInjectedMultipleRepositories</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t07_statusCodeOrdering()'><b>t07_statusCodeOrdering</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t17_getAllBranches_nonEmpty()'><b>t17_getAllBranches_nonEmpty</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t12_getUserById_success()'><b>t12_getUserById_success</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t65_customUserDetailsService_userNotFound()'><b>t65_customUserDetailsService_userNotFound</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t04_registerRequestDtoMapping()'><b>t04_registerRequestDtoMapping</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t52_eventsMergedConcept()'><b>t52_eventsMergedConcept</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t18_createAcademicEvent_success()'><b>t18_createAcademicEvent_success</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t42_clashRecordReferencesTwoEventsConcept()'><b>t42_clashRecordReferencesTwoEventsConcept</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t50_branchWithMultipleEventsConcept()'><b>t50_branchWithMultipleEventsConcept</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t85_generateHarmonizedCalendar_service()'><b>t85_generateHarmonizedCalendar_service</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t44_harmonizedCalendarEffectiveWindowConcept()'><b>t44_harmonizedCalendarEffectiveWindowConcept</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t23_clashServiceInjectedRepository()'><b>t23_clashServiceInjectedRepository</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t72_invalidTokenParsingThrows()'><b>t72_invalidTokenParsingThrows</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t87_getMergeRecordsByDate_repository()'><b>t87_getMergeRecordsByDate_repository</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t67_roleBasedAccessConcept_adminRole()'><b>t67_roleBasedAccessConcept_adminRole</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t02_simpleControllerPathBuilding()'><b>t02_simpleControllerPathBuilding</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t83_clashesForEvent_repository()'><b>t83_clashesForEvent_repository</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t69_tokenIncludesEmailClaim()'><b>t69_tokenIncludesEmailClaim</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t41_academicEventBelongsToBranchConcept()'><b>t41_academicEventBelongsToBranchConcept</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t66_authenticationManager_simulation()'><b>t66_authenticationManager_simulation</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t53_calendarContainsEventsJsonConcept()'><b>t53_calendarContainsEventsJsonConcept</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t01_simpleServlet_statusAlive()'><b>t01_simpleServlet_statusAlive</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t84_unresolvedClashes_repository()'><b>t84_unresolvedClashes_repository</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t86_getCalendarsWithinRange_repository()'><b>t86_getCalendarsWithinRange_repository</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t51_eventParticipatesInMultipleClashesConcept()'><b>t51_eventParticipatesInMultipleClashesConcept</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t81_mergeEvents_buildsMergedRecord()'><b>t81_mergeEvents_buildsMergedRecord</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t35_crudSaveBranch_viaRepositoryMock()'><b>t35_crudSaveBranch_viaRepositoryMock</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t24_userAccountServiceInjectedPasswordEncoder()'><b>t24_userAccountServiceInjectedPasswordEncoder</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t34_harmonizedCalendarPrePersistGeneratedAt()'><b>t34_harmonizedCalendarPrePersistGeneratedAt</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+<tr>
+<td title='com.example.demo.MultiBranchAcademicCalendarHarmonizerTest.t63_tokenValidation_wrongUser()'><b>t63_tokenValidation_wrongUser</b><br>Test class: com.example.demo.MultiBranchAcademicCalendarHarmonizerTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="65" passed="65" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-26T12:18:54 IST" name="MultiBranchAcademicCalendarHarmonizerTestSuite" finished-at="2025-12-26T12:18:58 IST" duration-ms="3566">
+    <groups>
+      <group name="associations">
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t50_branchWithMultipleEventsConcept()[pri:50, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t50_branchWithMultipleEventsConcept" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t51_eventParticipatesInMultipleClashesConcept()[pri:51, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t51_eventParticipatesInMultipleClashesConcept" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t52_eventsMergedConcept()[pri:52, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t52_eventsMergedConcept" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t53_calendarContainsEventsJsonConcept()[pri:53, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t53_calendarContainsEventsJsonConcept" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t54_branchAndCalendarIndirectRelationConcept()[pri:54, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t54_branchAndCalendarIndirectRelationConcept" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+      </group> <!-- associations -->
+      <group name="crud">
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t10_registerUser_success()[pri:10, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t10_registerUser_success" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t11_registerUser_duplicateEmail()[pri:11, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t11_registerUser_duplicateEmail" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t12_getUserById_success()[pri:12, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t12_getUserById_success" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t13_getUserById_notFound()[pri:13, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t13_getUserById_notFound" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t14_createBranch_success()[pri:14, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t14_createBranch_success" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t15_updateBranchStatus_success()[pri:15, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t15_updateBranchStatus_success" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t16_getAllBranches_empty()[pri:16, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t16_getAllBranches_empty" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t17_getAllBranches_nonEmpty()[pri:17, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t17_getAllBranches_nonEmpty" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t18_createAcademicEvent_success()[pri:18, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t18_createAcademicEvent_success" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t19_createAcademicEvent_invalidDates()[pri:19, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t19_createAcademicEvent_invalidDates" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+      </group> <!-- crud -->
+      <group name="hql">
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t80_getEventsByBranch_service()[pri:80, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t80_getEventsByBranch_service" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t81_mergeEvents_buildsMergedRecord()[pri:81, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t81_mergeEvents_buildsMergedRecord" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t82_mergeEvents_noEventsFound()[pri:82, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t82_mergeEvents_noEventsFound" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t83_clashesForEvent_repository()[pri:83, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t83_clashesForEvent_repository" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t84_unresolvedClashes_repository()[pri:84, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t84_unresolvedClashes_repository" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t85_generateHarmonizedCalendar_service()[pri:85, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t85_generateHarmonizedCalendar_service" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t86_getCalendarsWithinRange_repository()[pri:86, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t86_getCalendarsWithinRange_repository" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t87_getMergeRecordsByDate_repository()[pri:87, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t87_getMergeRecordsByDate_repository" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t88_getEventsByBranch_noEvents()[pri:88, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t88_getEventsByBranch_noEvents" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t89_clashResolve_updatesResolvedFlag()[pri:89, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t89_clashResolve_updatesResolvedFlag" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+      </group> <!-- hql -->
+      <group name="security">
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t60_generateJwtToken_containsSubject()[pri:60, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t60_generateJwtToken_containsSubject" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t61_generateTokenForUser_containsClaims()[pri:61, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t61_generateTokenForUser_containsClaims" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t62_tokenValidation_success()[pri:62, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t62_tokenValidation_success" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t63_tokenValidation_wrongUser()[pri:63, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t63_tokenValidation_wrongUser" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t64_customUserDetailsService_loadByEmail()[pri:64, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t64_customUserDetailsService_loadByEmail" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t65_customUserDetailsService_userNotFound()[pri:65, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t65_customUserDetailsService_userNotFound" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t66_authenticationManager_simulation()[pri:66, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t66_authenticationManager_simulation" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t67_roleBasedAccessConcept_adminRole()[pri:67, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t67_roleBasedAccessConcept_adminRole" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t68_roleBasedAccessConcept_reviewerNotAdmin()[pri:68, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t68_roleBasedAccessConcept_reviewerNotAdmin" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t69_tokenIncludesEmailClaim()[pri:69, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t69_tokenIncludesEmailClaim" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t70_tokenIncludesRoleClaim()[pri:70, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t70_tokenIncludesRoleClaim" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t71_tokenIncludesUserIdClaim()[pri:71, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t71_tokenIncludesUserIdClaim" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t72_invalidTokenParsingThrows()[pri:72, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t72_invalidTokenParsingThrows" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t73_passwordMinLengthValidation()[pri:73, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t73_passwordMinLengthValidation" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t74_registerUser_defaultRoleReviewer()[pri:74, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t74_registerUser_defaultRoleReviewer" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+      </group> <!-- security -->
+      <group name="di">
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t20_branchProfileServiceInjected()[pri:20, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t20_branchProfileServiceInjected" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t21_academicEventServiceInjected()[pri:21, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t21_academicEventServiceInjected" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t22_mergeServiceInjectedMultipleRepositories()[pri:22, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t22_mergeServiceInjectedMultipleRepositories" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t23_clashServiceInjectedRepository()[pri:23, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t23_clashServiceInjectedRepository" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t24_userAccountServiceInjectedPasswordEncoder()[pri:24, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t24_userAccountServiceInjectedPasswordEncoder" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+      </group> <!-- di -->
+      <group name="servlet">
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t01_simpleServlet_statusAlive()[pri:1, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t01_simpleServlet_statusAlive" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t02_simpleControllerPathBuilding()[pri:2, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t02_simpleControllerPathBuilding" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t03_queryParamSimulation()[pri:3, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t03_queryParamSimulation" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t04_registerRequestDtoMapping()[pri:4, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t04_registerRequestDtoMapping" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t05_loginRequestDtoMapping()[pri:5, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t05_loginRequestDtoMapping" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t06_pathPatternMatch()[pri:6, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t06_pathPatternMatch" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t07_statusCodeOrdering()[pri:7, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t07_statusCodeOrdering" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+      </group> <!-- servlet -->
+      <group name="jpa">
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t40_branchProfileUniquenessConcept()[pri:40, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t40_branchProfileUniquenessConcept" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t41_academicEventBelongsToBranchConcept()[pri:41, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t41_academicEventBelongsToBranchConcept" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t42_clashRecordReferencesTwoEventsConcept()[pri:42, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t42_clashRecordReferencesTwoEventsConcept" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t43_mergeRecordHasSourceEventsConcept()[pri:43, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t43_mergeRecordHasSourceEventsConcept" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t44_harmonizedCalendarEffectiveWindowConcept()[pri:44, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t44_harmonizedCalendarEffectiveWindowConcept" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+      </group> <!-- jpa -->
+      <group name="hibernate">
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t30_branchProfilePrePersistSetsDefaults()[pri:30, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t30_branchProfilePrePersistSetsDefaults" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t31_academicEventPrePersistSubmittedAt()[pri:31, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t31_academicEventPrePersistSubmittedAt" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t32_eventMergeRecordPrePersistCreatedAt()[pri:32, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t32_eventMergeRecordPrePersistCreatedAt" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t33_clashRecordPrePersistDefaults()[pri:33, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t33_clashRecordPrePersistDefaults" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t34_harmonizedCalendarPrePersistGeneratedAt()[pri:34, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t34_harmonizedCalendarPrePersistGeneratedAt" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t35_crudSaveBranch_viaRepositoryMock()[pri:35, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t35_crudSaveBranch_viaRepositoryMock" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t36_userAccountPrePersistDefaultsRole()[pri:36, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t36_userAccountPrePersistDefaultsRole" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+        <method signature="MultiBranchAcademicCalendarHarmonizerTest.t37_repositoryFindUserByEmail_optional()[pri:37, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" name="t37_repositoryFindUserByEmail_optional" class="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest"/>
+      </group> <!-- hibernate -->
+    </groups>
+    <test started-at="2025-12-26T12:18:54 IST" name="AllTests" finished-at="2025-12-26T12:18:58 IST" duration-ms="3566">
+      <class name="com.example.demo.MultiBranchAcademicCalendarHarmonizerTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:54 IST" name="setup" finished-at="2025-12-26T12:18:56 IST" duration-ms="2123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="t01_simpleServlet_statusAlive()[pri:1, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:56 IST" name="t01_simpleServlet_statusAlive" finished-at="2025-12-26T12:18:57 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t01_simpleServlet_statusAlive -->
+        <test-method signature="t02_simpleControllerPathBuilding()[pri:2, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t02_simpleControllerPathBuilding" finished-at="2025-12-26T12:18:57 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t02_simpleControllerPathBuilding -->
+        <test-method signature="t03_queryParamSimulation()[pri:3, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t03_queryParamSimulation" finished-at="2025-12-26T12:18:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t03_queryParamSimulation -->
+        <test-method signature="t04_registerRequestDtoMapping()[pri:4, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t04_registerRequestDtoMapping" finished-at="2025-12-26T12:18:57 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t04_registerRequestDtoMapping -->
+        <test-method signature="t05_loginRequestDtoMapping()[pri:5, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t05_loginRequestDtoMapping" finished-at="2025-12-26T12:18:57 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t05_loginRequestDtoMapping -->
+        <test-method signature="t06_pathPatternMatch()[pri:6, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t06_pathPatternMatch" finished-at="2025-12-26T12:18:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t06_pathPatternMatch -->
+        <test-method signature="t07_statusCodeOrdering()[pri:7, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t07_statusCodeOrdering" finished-at="2025-12-26T12:18:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t07_statusCodeOrdering -->
+        <test-method signature="t10_registerUser_success()[pri:10, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t10_registerUser_success" finished-at="2025-12-26T12:18:57 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t10_registerUser_success -->
+        <test-method signature="t11_registerUser_duplicateEmail()[pri:11, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t11_registerUser_duplicateEmail" finished-at="2025-12-26T12:18:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t11_registerUser_duplicateEmail -->
+        <test-method signature="t12_getUserById_success()[pri:12, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t12_getUserById_success" finished-at="2025-12-26T12:18:57 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t12_getUserById_success -->
+        <test-method signature="t13_getUserById_notFound()[pri:13, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t13_getUserById_notFound" finished-at="2025-12-26T12:18:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t13_getUserById_notFound -->
+        <test-method signature="t14_createBranch_success()[pri:14, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t14_createBranch_success" finished-at="2025-12-26T12:18:57 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t14_createBranch_success -->
+        <test-method signature="t15_updateBranchStatus_success()[pri:15, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t15_updateBranchStatus_success" finished-at="2025-12-26T12:18:57 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t15_updateBranchStatus_success -->
+        <test-method signature="t16_getAllBranches_empty()[pri:16, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t16_getAllBranches_empty" finished-at="2025-12-26T12:18:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t16_getAllBranches_empty -->
+        <test-method signature="t17_getAllBranches_nonEmpty()[pri:17, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t17_getAllBranches_nonEmpty" finished-at="2025-12-26T12:18:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t17_getAllBranches_nonEmpty -->
+        <test-method signature="t18_createAcademicEvent_success()[pri:18, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t18_createAcademicEvent_success" finished-at="2025-12-26T12:18:57 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t18_createAcademicEvent_success -->
+        <test-method signature="t19_createAcademicEvent_invalidDates()[pri:19, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t19_createAcademicEvent_invalidDates" finished-at="2025-12-26T12:18:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t19_createAcademicEvent_invalidDates -->
+        <test-method signature="t20_branchProfileServiceInjected()[pri:20, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t20_branchProfileServiceInjected" finished-at="2025-12-26T12:18:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t20_branchProfileServiceInjected -->
+        <test-method signature="t21_academicEventServiceInjected()[pri:21, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t21_academicEventServiceInjected" finished-at="2025-12-26T12:18:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t21_academicEventServiceInjected -->
+        <test-method signature="t22_mergeServiceInjectedMultipleRepositories()[pri:22, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t22_mergeServiceInjectedMultipleRepositories" finished-at="2025-12-26T12:18:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t22_mergeServiceInjectedMultipleRepositories -->
+        <test-method signature="t23_clashServiceInjectedRepository()[pri:23, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t23_clashServiceInjectedRepository" finished-at="2025-12-26T12:18:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t23_clashServiceInjectedRepository -->
+        <test-method signature="t24_userAccountServiceInjectedPasswordEncoder()[pri:24, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t24_userAccountServiceInjectedPasswordEncoder" finished-at="2025-12-26T12:18:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t24_userAccountServiceInjectedPasswordEncoder -->
+        <test-method signature="t30_branchProfilePrePersistSetsDefaults()[pri:30, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t30_branchProfilePrePersistSetsDefaults" finished-at="2025-12-26T12:18:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t30_branchProfilePrePersistSetsDefaults -->
+        <test-method signature="t31_academicEventPrePersistSubmittedAt()[pri:31, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t31_academicEventPrePersistSubmittedAt" finished-at="2025-12-26T12:18:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t31_academicEventPrePersistSubmittedAt -->
+        <test-method signature="t32_eventMergeRecordPrePersistCreatedAt()[pri:32, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t32_eventMergeRecordPrePersistCreatedAt" finished-at="2025-12-26T12:18:57 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t32_eventMergeRecordPrePersistCreatedAt -->
+        <test-method signature="t33_clashRecordPrePersistDefaults()[pri:33, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t33_clashRecordPrePersistDefaults" finished-at="2025-12-26T12:18:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t33_clashRecordPrePersistDefaults -->
+        <test-method signature="t34_harmonizedCalendarPrePersistGeneratedAt()[pri:34, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t34_harmonizedCalendarPrePersistGeneratedAt" finished-at="2025-12-26T12:18:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t34_harmonizedCalendarPrePersistGeneratedAt -->
+        <test-method signature="t35_crudSaveBranch_viaRepositoryMock()[pri:35, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t35_crudSaveBranch_viaRepositoryMock" finished-at="2025-12-26T12:18:57 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t35_crudSaveBranch_viaRepositoryMock -->
+        <test-method signature="t36_userAccountPrePersistDefaultsRole()[pri:36, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t36_userAccountPrePersistDefaultsRole" finished-at="2025-12-26T12:18:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t36_userAccountPrePersistDefaultsRole -->
+        <test-method signature="t37_repositoryFindUserByEmail_optional()[pri:37, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t37_repositoryFindUserByEmail_optional" finished-at="2025-12-26T12:18:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t37_repositoryFindUserByEmail_optional -->
+        <test-method signature="t40_branchProfileUniquenessConcept()[pri:40, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t40_branchProfileUniquenessConcept" finished-at="2025-12-26T12:18:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t40_branchProfileUniquenessConcept -->
+        <test-method signature="t41_academicEventBelongsToBranchConcept()[pri:41, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t41_academicEventBelongsToBranchConcept" finished-at="2025-12-26T12:18:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t41_academicEventBelongsToBranchConcept -->
+        <test-method signature="t42_clashRecordReferencesTwoEventsConcept()[pri:42, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t42_clashRecordReferencesTwoEventsConcept" finished-at="2025-12-26T12:18:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t42_clashRecordReferencesTwoEventsConcept -->
+        <test-method signature="t43_mergeRecordHasSourceEventsConcept()[pri:43, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t43_mergeRecordHasSourceEventsConcept" finished-at="2025-12-26T12:18:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t43_mergeRecordHasSourceEventsConcept -->
+        <test-method signature="t44_harmonizedCalendarEffectiveWindowConcept()[pri:44, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t44_harmonizedCalendarEffectiveWindowConcept" finished-at="2025-12-26T12:18:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t44_harmonizedCalendarEffectiveWindowConcept -->
+        <test-method signature="t50_branchWithMultipleEventsConcept()[pri:50, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t50_branchWithMultipleEventsConcept" finished-at="2025-12-26T12:18:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t50_branchWithMultipleEventsConcept -->
+        <test-method signature="t51_eventParticipatesInMultipleClashesConcept()[pri:51, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t51_eventParticipatesInMultipleClashesConcept" finished-at="2025-12-26T12:18:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t51_eventParticipatesInMultipleClashesConcept -->
+        <test-method signature="t52_eventsMergedConcept()[pri:52, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t52_eventsMergedConcept" finished-at="2025-12-26T12:18:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t52_eventsMergedConcept -->
+        <test-method signature="t53_calendarContainsEventsJsonConcept()[pri:53, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t53_calendarContainsEventsJsonConcept" finished-at="2025-12-26T12:18:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t53_calendarContainsEventsJsonConcept -->
+        <test-method signature="t54_branchAndCalendarIndirectRelationConcept()[pri:54, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t54_branchAndCalendarIndirectRelationConcept" finished-at="2025-12-26T12:18:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t54_branchAndCalendarIndirectRelationConcept -->
+        <test-method signature="t60_generateJwtToken_containsSubject()[pri:60, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t60_generateJwtToken_containsSubject" finished-at="2025-12-26T12:18:57 IST" duration-ms="626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t60_generateJwtToken_containsSubject -->
+        <test-method signature="t61_generateTokenForUser_containsClaims()[pri:61, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t61_generateTokenForUser_containsClaims" finished-at="2025-12-26T12:18:57 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t61_generateTokenForUser_containsClaims -->
+        <test-method signature="t62_tokenValidation_success()[pri:62, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:57 IST" name="t62_tokenValidation_success" finished-at="2025-12-26T12:18:58 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t62_tokenValidation_success -->
+        <test-method signature="t63_tokenValidation_wrongUser()[pri:63, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:58 IST" name="t63_tokenValidation_wrongUser" finished-at="2025-12-26T12:18:58 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t63_tokenValidation_wrongUser -->
+        <test-method signature="t64_customUserDetailsService_loadByEmail()[pri:64, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:58 IST" name="t64_customUserDetailsService_loadByEmail" finished-at="2025-12-26T12:18:58 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t64_customUserDetailsService_loadByEmail -->
+        <test-method signature="t65_customUserDetailsService_userNotFound()[pri:65, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:58 IST" name="t65_customUserDetailsService_userNotFound" finished-at="2025-12-26T12:18:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t65_customUserDetailsService_userNotFound -->
+        <test-method signature="t66_authenticationManager_simulation()[pri:66, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:58 IST" name="t66_authenticationManager_simulation" finished-at="2025-12-26T12:18:58 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t66_authenticationManager_simulation -->
+        <test-method signature="t67_roleBasedAccessConcept_adminRole()[pri:67, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:58 IST" name="t67_roleBasedAccessConcept_adminRole" finished-at="2025-12-26T12:18:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t67_roleBasedAccessConcept_adminRole -->
+        <test-method signature="t68_roleBasedAccessConcept_reviewerNotAdmin()[pri:68, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:58 IST" name="t68_roleBasedAccessConcept_reviewerNotAdmin" finished-at="2025-12-26T12:18:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t68_roleBasedAccessConcept_reviewerNotAdmin -->
+        <test-method signature="t69_tokenIncludesEmailClaim()[pri:69, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:58 IST" name="t69_tokenIncludesEmailClaim" finished-at="2025-12-26T12:18:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t69_tokenIncludesEmailClaim -->
+        <test-method signature="t70_tokenIncludesRoleClaim()[pri:70, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:58 IST" name="t70_tokenIncludesRoleClaim" finished-at="2025-12-26T12:18:58 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t70_tokenIncludesRoleClaim -->
+        <test-method signature="t71_tokenIncludesUserIdClaim()[pri:71, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:58 IST" name="t71_tokenIncludesUserIdClaim" finished-at="2025-12-26T12:18:58 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t71_tokenIncludesUserIdClaim -->
+        <test-method signature="t72_invalidTokenParsingThrows()[pri:72, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:58 IST" name="t72_invalidTokenParsingThrows" finished-at="2025-12-26T12:18:58 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t72_invalidTokenParsingThrows -->
+        <test-method signature="t73_passwordMinLengthValidation()[pri:73, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:58 IST" name="t73_passwordMinLengthValidation" finished-at="2025-12-26T12:18:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t73_passwordMinLengthValidation -->
+        <test-method signature="t74_registerUser_defaultRoleReviewer()[pri:74, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:58 IST" name="t74_registerUser_defaultRoleReviewer" finished-at="2025-12-26T12:18:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t74_registerUser_defaultRoleReviewer -->
+        <test-method signature="t80_getEventsByBranch_service()[pri:80, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:58 IST" name="t80_getEventsByBranch_service" finished-at="2025-12-26T12:18:58 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t80_getEventsByBranch_service -->
+        <test-method signature="t81_mergeEvents_buildsMergedRecord()[pri:81, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:58 IST" name="t81_mergeEvents_buildsMergedRecord" finished-at="2025-12-26T12:18:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t81_mergeEvents_buildsMergedRecord -->
+        <test-method signature="t82_mergeEvents_noEventsFound()[pri:82, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:58 IST" name="t82_mergeEvents_noEventsFound" finished-at="2025-12-26T12:18:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t82_mergeEvents_noEventsFound -->
+        <test-method signature="t83_clashesForEvent_repository()[pri:83, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:58 IST" name="t83_clashesForEvent_repository" finished-at="2025-12-26T12:18:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t83_clashesForEvent_repository -->
+        <test-method signature="t84_unresolvedClashes_repository()[pri:84, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:58 IST" name="t84_unresolvedClashes_repository" finished-at="2025-12-26T12:18:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t84_unresolvedClashes_repository -->
+        <test-method signature="t85_generateHarmonizedCalendar_service()[pri:85, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:58 IST" name="t85_generateHarmonizedCalendar_service" finished-at="2025-12-26T12:18:58 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t85_generateHarmonizedCalendar_service -->
+        <test-method signature="t86_getCalendarsWithinRange_repository()[pri:86, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:58 IST" name="t86_getCalendarsWithinRange_repository" finished-at="2025-12-26T12:18:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t86_getCalendarsWithinRange_repository -->
+        <test-method signature="t87_getMergeRecordsByDate_repository()[pri:87, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:58 IST" name="t87_getMergeRecordsByDate_repository" finished-at="2025-12-26T12:18:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t87_getMergeRecordsByDate_repository -->
+        <test-method signature="t88_getEventsByBranch_noEvents()[pri:88, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:58 IST" name="t88_getEventsByBranch_noEvents" finished-at="2025-12-26T12:18:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t88_getEventsByBranch_noEvents -->
+        <test-method signature="t89_clashResolve_updatesResolvedFlag()[pri:89, instance:com.example.demo.MultiBranchAcademicCalendarHarmonizerTest@389e2bd3]" started-at="2025-12-26T12:18:58 IST" name="t89_clashResolve_updatesResolvedFlag" finished-at="2025-12-26T12:18:58 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t89_clashResolve_updatesResolvedFlag -->
+      </class> <!-- com.example.demo.MultiBranchAcademicCalendarHarmonizerTest -->
+    </test> <!-- AllTests -->
+  </suite> <!-- MultiBranchAcademicCalendarHarmonizerTestSuite -->
+</testng-results>
