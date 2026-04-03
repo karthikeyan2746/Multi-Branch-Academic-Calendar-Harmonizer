@@ -1,124 +1,156 @@
-# Multi-branch Academic Calendar Harmonizer
+# Multi-Branch Academic Calendar Harmonizer
 
-A Spring Boot application for managing and harmonizing academic calendars across multiple branches.
+A full-stack application for managing and harmonizing academic calendars across multiple institutional branches. Built with Spring Boot (backend) and React (frontend).
 
-## Features
+---
 
-- **Branch Management**: Create and manage academic branches
-- **Event Management**: Create and manage academic events
-- **Calendar Harmonization**: Merge and harmonize calendars across branches
-- **Conflict Detection**: Detect and resolve scheduling conflicts
-- **User Authentication**: JWT-based authentication and authorization
-- **RESTful APIs**: Complete REST API for all operations
+## Tech Stack
 
-## Technology Stack
+### Backend
+| Layer | Technology |
+|---|---|
+| Framework | Spring Boot 3.3.0 |
+| Language | Java 17 |
+| Database | MySQL 8 + Spring Data JPA / Hibernate |
+| Security | Spring Security + JWT (jjwt 0.12.5) |
+| API Docs | SpringDoc OpenAPI (Swagger UI) |
+| Testing | TestNG 7.8.0 + Mockito |
+| Build | Maven |
 
-- **Framework**: Spring Boot 3.3.0
-- **Database**: MySQL with JPA/Hibernate
-- **Security**: Spring Security with JWT
-- **Testing**: TestNG with Mockito
-- **Build Tool**: Maven
-- **Java Version**: 17
+### Frontend (`academic-calendar-pro/`)
+| Layer | Technology |
+|---|---|
+| Framework | React 19 + Vite |
+| Routing | React Router DOM v7 |
+| Styling | Tailwind CSS |
+| Calendar UI | FullCalendar 6 |
+| HTTP Client | Axios |
+| Animations | Framer Motion |
+
+---
 
 ## Project Structure
 
 ```
-src/
-├── main/java/com/example/demo/
-│   ├── config/          # Configuration classes
-│   ├── controller/      # REST controllers
-│   ├── dto/            # Data Transfer Objects
-│   ├── entity/         # JPA entities
-│   ├── exception/      # Custom exceptions
-│   ├── repository/     # JPA repositories
-│   ├── security/       # Security configuration and JWT utilities
-│   ├── service/        # Service interfaces and implementations
-│   ├── servlet/        # Custom servlets
-│   └── DemoApplication.java
-└── test/java/com/example/demo/
-    ├── MultiBranchAcademicCalendarHarmonizerTest.java
-    ├── TestResultListener.java
-    └── TestRunner.java
+├── src/
+│   ├── main/java/com/example/demo/
+│   │   ├── config/               # SecurityConfig, OpenApiConfig
+│   │   ├── controller/           # REST controllers (6)
+│   │   ├── dto/                  # Request/Response DTOs
+│   │   ├── entity/               # JPA entities (6)
+│   │   ├── exception/            # GlobalExceptionHandler, custom exceptions
+│   │   ├── repository/           # Spring Data JPA repositories (6)
+│   │   ├── security/             # JwtUtil, JwtAuthenticationFilter, CustomUserDetailsService
+│   │   ├── service/              # Service interfaces + impl/ (6 services)
+│   │   ├── servlet/              # SimpleStatusServlet
+│   │   └── DemoApplication.java
+│   └── test/java/com/example/demo/
+│       ├── MultiBranchAcademicCalendarHarmonizerTest.java
+│       ├── TestResultListener.java
+│       └── TestRunner.java
+│
+└── academic-calendar-pro/        # React frontend
+    └── src/
+        ├── components/           # Layout, Sidebar, TopBar, EventModal, etc.
+        ├── context/              # AuthContext
+        ├── pages/                # Dashboard, BranchManagement, ConflictPage, etc.
+        └── utils/                # api.js, conflictDetection.js
 ```
 
-## Key Components
+---
 
-### Entities
-- **UserAccount**: User management with role-based access
-- **BranchProfile**: Academic branch information
-- **AcademicEvent**: Academic events and activities
-- **EventMergeRecord**: Records of merged events
-- **ClashRecord**: Conflict detection records
-- **HarmonizedCalendar**: Unified calendar view
+## Domain Model
 
-### Services
-- **UserAccountService**: User registration and management
-- **BranchProfileService**: Branch operations
-- **AcademicEventService**: Event management
-- **EventMergeService**: Event merging logic
-- **ClashDetectionService**: Conflict detection and resolution
-- **HarmonizedCalendarService**: Calendar harmonization
+| Entity | Description |
+|---|---|
+| `UserAccount` | Users with role-based access (`ADMIN` / `REVIEWER`) |
+| `BranchProfile` | Academic branch/department |
+| `AcademicEvent` | Events (exams, holidays, etc.) belonging to a branch |
+| `ClashRecord` | Detected scheduling conflicts between two events |
+| `EventMergeRecord` | Record of merged/harmonized events |
+| `HarmonizedCalendar` | Unified calendar view with effective date window |
 
-## Running Tests
-
-The project includes comprehensive TestNG tests covering:
-- Servlet functionality (7 tests)
-- CRUD operations (10 tests)
-- Dependency Injection (5 tests)
-- Hibernate/JPA features (8 tests)
-- JPA mapping concepts (5 tests)
-- Association concepts (5 tests)
-- Security & JWT (15 tests)
-- Advanced querying (10 tests)
-
-**Total: 65 tests**
-
-To run tests:
-```bash
-mvn exec:java -Dexec.mainClass="com.example.demo.TestRunner" -Dexec.classpathScope=test
-```
-
-## Build and Run
-
-1. **Prerequisites**:
-   - Java 17+
-   - Maven 3.6+
-   - MySQL database
-
-2. **Build**:
-   ```bash
-   mvn clean compile
-   ```
-
-3. **Run Tests**:
-   ```bash
-   mvn exec:java -Dexec.mainClass="com.example.demo.TestRunner" -Dexec.classpathScope=test
-   ```
-
-4. **Run Application**:
-   ```bash
-   mvn spring-boot:run
-   ```
-
-## Configuration
-
-Update `application.properties` with your database configuration:
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/your_database
-spring.datasource.username=your_username
-spring.datasource.password=your_password
-```
+---
 
 ## API Endpoints
 
-- **Authentication**: `/api/auth/*`
-- **Users**: `/api/users/*`
-- **Branches**: `/api/branches/*`
-- **Events**: `/api/events/*`
-- **Calendars**: `/api/harmonized-calendars/*`
-- **Conflicts**: `/api/clashes/*`
-- **Merges**: `/api/merge-records/*`
+| Resource | Base Path |
+|---|---|
+| Authentication | `/api/auth/*` |
+| Users | `/api/users/*` |
+| Branches | `/api/branches/*` |
+| Events | `/api/events/*` |
+| Harmonized Calendars | `/api/harmonized-calendars/*` |
+| Clash Records | `/api/clashes/*` |
+| Merge Records | `/api/merge-records/*` |
+
+Interactive API docs available at: `http://localhost:8080/swagger-ui.html`
+
+---
+
+## Setup & Run
+
+### Prerequisites
+- Java 17+
+- Maven 3.6+
+- MySQL 8
+- Node.js 18+ (for frontend)
+
+### 1. Database
+The database `calendar_db` is created automatically on first run (`createDatabaseIfNotExist=true`).
+
+Update credentials in `src/main/resources/application.properties` if needed:
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/calendar_db?createDatabaseIfNotExist=true
+spring.datasource.username=root
+spring.datasource.password=root
+```
+
+### 2. Backend
+```bash
+# Build
+mvn clean compile
+
+# Run application (port 8080)
+mvn spring-boot:run
+```
+
+### 3. Frontend
+```bash
+cd academic-calendar-pro
+npm install
+npm run dev
+```
+
+---
+
+## Running Tests
+
+65 TestNG tests covering all layers, executed via Mockito (no live DB required):
+
+| Group | Tests | Coverage |
+|---|---|---|
+| Servlet | 7 | Servlet behavior, DTO mapping, path patterns |
+| CRUD | 10 | User & branch registration, event creation, validation |
+| DI / IoC | 5 | Service and repository injection verification |
+| Hibernate / JPA | 8 | `@PrePersist` defaults, repository mock operations |
+| JPA Mapping | 5 | Entity relationship concepts |
+| Associations | 5 | Branch–event, event–clash, merge record concepts |
+| Security & JWT | 15 | Token generation, validation, role claims, password rules |
+| Advanced Querying | 10 | Service-level queries, clash resolution, calendar range |
+
+```bash
+# Run all tests
+mvn test
+
+# Run via custom TestRunner
+mvn exec:java -Dexec.mainClass="com.example.demo.TestRunner" -Dexec.classpathScope=test
+```
+
+Test reports are generated in `test-output/`.
+
+---
 
 ## Author
 
-- Karthikeyan C (Cyber security Engineering Student)
+Karthikeyan C — Cybersecurity Engineering Student
